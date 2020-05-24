@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "--- Setup"
+set -eo pipefail
 export USE_CCACHE="1"
 export PYTHONDONTWRITEBYTECODE=true
 export BUILD_ENFORCE_SELINUX=1
